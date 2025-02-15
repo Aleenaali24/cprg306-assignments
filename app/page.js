@@ -27,7 +27,14 @@ export default function Page() {
           Week 4 Assignment
         </Link>
        </div>
-
+       
+       <div className="mt-8">
+        <Link 
+          href="week-5" 
+          className="block hover:underline hover:text-[#FE347E] ml-40">
+          Week 5 Assignment
+        </Link>
+       </div>
      
     </div>
   );
