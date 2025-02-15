@@ -23,7 +23,7 @@ export default function Counter() {
     event.preventDefault();
     let item = { name, category, quantity };
 
-    alert(`Name: ${name}, Category: ${category}, Quantity: ${quantity}`);
+    alert(`Added item: ${name}, Category: ${category}, Quantity: ${quantity}`);
     console.log(item);
 
     setName("");
