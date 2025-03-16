@@ -36,7 +36,7 @@ export default function NewItem({ onAddItem }) {
   };
 
   return (
-    <div className="flex justify-center items-start p-6">
+    <div className="flex justify-start items-start">
       <form
         onSubmit={handleSubmit}
         className="flex flex-col items-center p-6 rounded-lg shadow-lg w-[350px] bg-[#0f172a]"

@@ -14,9 +14,13 @@ export default function Page() {
 
   return (
     <main className="min-h-screen bg-[#020617] text-white p-6">
-      <h1 className="text-4xl font-bold  mb-6 ">Shopping List</h1>
-      <ItemList items={items} />
-      <NewItem onAddItem={handleAddItem} />
+      <h1 className="text-4xl font-bold mb-0">Shopping List</h1>
+      
+      {/* Stack NewItem and ItemList */}
+      <div className="flex flex-col items-start space-y-4 mt-4">
+        <NewItem className="w-full" onAddItem={handleAddItem} />
+        <ItemList items={items} />
+      </div>
     </main>
   );
 }

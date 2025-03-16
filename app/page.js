@@ -43,6 +43,22 @@ export default function Page() {
           Week 6 Assignment
         </Link>
        </div>
+
+       <div className="mt-10">
+        <Link 
+          href="week-7" 
+          className="block hover:underline hover:text-[#FE347E] ml-40">
+          Week 7 Assignment
+        </Link>
+       </div>
+
+       <div className="mt-12">
+        <Link 
+          href="week-8" 
+          className="block hover:underline hover:text-[#FE347E] ml-40">
+          Week 8 Assignment
+        </Link>
+       </div>
      
     </div>
   );
