@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Page() {
 
-  const Webdev2Assignments = [2, 3, 4, 5, 6, 7, 8];
+  const Webdev2Assignments = [2, 3, 4, 5, 6, 7, 8, 9];
  
   return (
     <div className='bg-black min-h-screen  text-white flex flex-col  p-6' >
